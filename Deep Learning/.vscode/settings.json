@@ -1,0 +1,6 @@
+{
+    "editor.fontSize": 10,
+    "editor.colorDecorators": false,
+    "terminal.integrated.fontSize": 10,
+    "workbench.fontAliasing": "auto"
+}
