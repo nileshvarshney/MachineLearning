@@ -8,7 +8,7 @@ Title: Understand Logistic regression on lower back pain spine data
 
 import pandas as pd
 import seaborn as sns
-import 
+
 
 sns.set(style="whitegrid", color_codes=True)
 
