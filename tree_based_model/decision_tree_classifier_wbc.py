@@ -21,7 +21,7 @@ X = df[['radius_mean', 'concave points_mean']]
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = SEED)
 
 # Instantiate a DecisionTreeClassifier 'dt' with a maximum depth of 6
-dt = DecisionTreeClassifier(max_depth = 6, random_state=SEED)
+dt = DecisionTreeClassifier(max_depth = 8, random_state=SEED)
 
 # added criterion explicitly
 dt_gini = DecisionTreeClassifier(max_depth=8, random_state=SEED, criterion='gini')
